@@ -13,3 +13,12 @@ Digite o peso do paciente (em kg):
 Resposta:
 Média: 140 mg
 """
+## Entrada de dados
+
+peso = float(input("Digite o peso do paciente (em kg): "))
+
+# Cálculo da dose
+dose = peso*2
+
+# Saída de dados
+print("Média: ", dose, "mg")
