@@ -19,3 +19,15 @@ Dica: Use inputs para receber os dados!
 Lembre de converter ele para o tipo necessário!
 Print na tela com "print"
 """
+
+## Entrada de dados
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+# Cálculo da média
+media = (nota1 + nota2 + nota3) / 3
+
+# Saída de dados
+print("Média: ", media)
